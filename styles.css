@@ -1,0 +1,488 @@
+/* Reseteo básico de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fondo blanco roto y color de texto */
+body {
+    background-color: #f4f4f2; /* Blanco roto */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #ff7f32; /* Naranja */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Estilo para el menú y busqueda*/
+#busqueda input[type="text"] {
+        width: 50%; /* El campo de entrada ocupará el 100% del ancho disponible */
+        padding: 8px;
+        border: none;
+        border-radius: 25px;
+        font-size: 1rem;
+        outline: none;
+        box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+#menu {
+    background-color: #ff7f32; /* Naranja */
+    padding: 10px 0;
+    text-align: center;
+}
+
+#menu ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 20px;
+}
+
+#menu li {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #ff7f32; /* Naranja */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#menu li:hover {
+    background-color: #e6731f; /* Naranja oscuro */
+}
+
+
+/*Estilos a sobre nosotros*/
+#sobre-nosotros h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#sobre-nosotros{
+    display: block;
+    font-size: 1.1rem;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+#sobre-nosotros img{
+    width: 335px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/*Estilos banner promoción*/
+#promocion{
+    border: 10px solid #e6731f;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    background-color: rgb(255, 255, 255);
+}
+#promocion h2{
+    text-decoration: underline;
+}
+#promocion p{
+    font-size: 18px;
+}
+#promocion mark{
+    font-size: 1.3rem;
+}
+
+/*ESTILOS CONTENEDOR PRODUCTOS DESTACADOS*/
+#productos-destacados{
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+#container-main-destacado{
+    max-width: 1510px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.destacado{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 385px;
+    margin-bottom: 15px;
+    float: left;
+}
+.destacado h3{
+    font-size: 25px;
+}
+
+.destacado p{
+    text-align: center;
+}
+
+.destacado img{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 200px;
+}
+
+
+/* Estilo para el artículo de "¿Por qué comprar en el Supermercado y Tienda Online de Frutería Rueda?" */
+#por-que-comprar {
+    clear: both;
+    margin-left: 160px;
+    margin-right: 160px;
+    background-color: #ffffff; /* Blanco para el fondo */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para darle profundidad */
+    font-size: 1.1rem;
+}
+
+#por-que-comprar h2 {
+    text-align: center;
+    color: #ff7f32; /* Naranja */
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#por-que-comprar p {
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+#por-que-comprar ul {
+    list-style-type: none; /* Quita los puntos por defecto */
+    padding-left: 0;
+}
+
+#por-que-comprar li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+#por-que-comprar strong {
+    color: #ff7f32; /* Resalta las palabras importantes en naranja */
+}
+
+/* Estilo para los enlaces dentro de la lista */
+#por-que-comprar a {
+    color: #ff7f32; /* Naranja */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#por-que-comprar a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilo para el artículo de "¿Cómo funcionan los envíos de Frutería Rueda Online?" */
+#como-funcionan-envios {
+    margin-left: 160px;
+    margin-right: 160px;
+    background-color: #ffffff; /* Blanco */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto de profundidad */
+    font-size: 1.1rem;
+}
+
+#como-funcionan-envios h2 {
+    text-align: center;
+    color: #ff7f32; /* Naranja */
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#como-funcionan-envios p {
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+#como-funcionan-envios ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#como-funcionan-envios li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+#como-funcionan-envios strong {
+    color: #ff7f32; /* Resalta las palabras importantes */
+}
+
+/* Estilo para los enlaces dentro de la lista */
+#como-funcionan-envios a {
+    color: #ff7f32; /* Naranja */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#como-funcionan-envios a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo general para ambos artículos */
+article {
+    margin-top: 50px;
+    line-height: 1.6;
+}
+
+
+/* Estilos de formulario */
+#formulario {
+    clear: both;
+    background-color: #fff;
+    border: 2px solid #e6731f; /* Naranja oscuro */
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#formulario h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form#contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #e6731f; /* Naranja oscuro */
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #e6731f; /* Naranja oscuro */
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button[type="submit"] {
+    background-color: #e6731f; /* Naranja oscuro */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff7f32;
+}
+
+button[type="submit"]:active {
+    background-color: #e6731f; 
+}
+
+/* Estilo general para el pie de página */
+#pie-pagina {
+    background-color: #333; /* Fondo oscuro para el pie de página */
+    color: white; /* Texto blanco */
+    padding: 40px 0; /* Espaciado arriba y abajo */
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Estilo para el "Trabajo con nosotros" */
+#Trabajo {
+    margin-bottom: 30px;
+}
+
+#Trabajo h3 {
+    color: #ff7f32; /* Naranja para el título */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+#Trabajo p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+#Trabajo a {
+    color: #ff7f32; /* Naranja para el enlace */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#Trabajo a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el bloque de "Legal" */
+#legal {
+    margin-bottom: 30px;
+}
+
+#legal p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#legal ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#legal li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#legal a {
+    color: white; /* Enlaces en blanco */
+    text-decoration: none;
+}
+
+#legal a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para las redes sociales */
+.redes-sociales {
+    margin-top: 30px;
+}
+
+.redes-sociales a {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.redes-sociales img {
+    width: 35px; /* Tamaño pequeño de los iconos */
+    height: 35px;
+    transition: transform 0.3s ease; /* Transición para el hover */
+}
+
+.redes-sociales a:hover img {
+    transform: scale(1.1); /* Efecto de agrandar los iconos */
+}
+
+
+/*Responsive*/
+@media (max-width: 1200px) {
+    #pie-pagina {
+        padding: 30px 0;
+    }
+
+    #Trabajo h3, #legal h3 {
+        font-size: 1.5rem;
+    }
+
+    #Trabajo p, #legal p {
+        font-size: 1rem;
+    }
+
+    .redes-sociales a {
+        margin: 0 10px;
+    }
+
+    .redes-sociales img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #pie-pagina {
+        padding: 20px 0;
+    }
+
+    #Trabajo h3, #legal h3 {
+        font-size: 1.3rem;
+    }
+
+    #Trabajo p, #legal p {
+        font-size: 0.9rem;
+    }
+
+    .redes-sociales a {
+        margin: 0 5px;
+    }
+
+    .redes-sociales img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    #pie-pagina {
+        padding: 15px 0;
+    }
+
+    #Trabajo h3, #legal h3 {
+        font-size: 1.2rem;
+    }
+
+    #Trabajo p, #legal p {
+        font-size: 0.9rem;
+    }
+
+    .redes-sociales img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+
